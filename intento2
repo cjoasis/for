@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class JavaApplication3 {
+
+    public static void main(String args[]){
+        
+        int numero=1;
+      Scanner Captura=new Scanner(System.in);
+      System.out.println("Ingrese hasta que numero desea saber los numeros pares e impares");
+       int limite=Captura.nextInt();
+        
+         while (numero<=limite){
+                 
+            if(numero%2==0){
+                System.out.println(numero);
+                
+            
+                 System.out.println(numero);
+            }
+                
+                numero++;
+         }
+    }
+}
+   
